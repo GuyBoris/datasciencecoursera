@@ -1,0 +1,16 @@
+---
+title: "HelloWorld"
+author: "Guy"
+date: "10 4 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# This is R markdown.
+```{r}
+print('output from R')
+```
+## This was ok
